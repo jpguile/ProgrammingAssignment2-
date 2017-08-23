@@ -1,11 +1,13 @@
-cacheSolve <- function(x, ...) {
-  reverse <- x$getInverse()
-  if (!is.null(reverse)) {
-    message("getting cached data")
-    return(reverse)
-  }
-  mat <- x$get()
-  reverse <- solve(mat, ...)
-  x$setInverse(reverse)
-  reverse
+makeVector <- function(x = numeric()) {
+        m <- NULL
+        set <- function(y) {
+                x <<- y
+                m <<- NULL
+        }
+        get <- function() x
+        setmean <- function(mean) m <<- mean
+        getmean <- function() m
+        list(set = set, get = get,
+             setmean = setmean,
+             getmean = getmean)
 }

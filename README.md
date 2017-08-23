@@ -1,9 +1,7 @@
-# ProgrammingAssignment2-
-Tarefa avaliada por colega: Programming Assignment 2: Lexical Scoping
-Enviar até Agosto 27, 11:59 PM PDT
-Informações importantes
+Programming Assignment 2: Lexical Scoping
+
 É especialmente importante enviar essa tarefa antes do prazo, Agosto 27, 11:59 PM PDT, pois ela deve receber uma nota dos colegas. Se você enviar depois dessa data, pode não haver colegas suficientes para avaliar seu trabalho. Isso dificulta (e, em alguns casos, impossibilita) a atribuição de notas. Envie no prazo para evitar esses riscos.
-i
+
  
 Parece que esta é sua primeira tarefa com avaliação entre colegas.  Saiba mais
 
@@ -21,7 +19,7 @@ get the value of the vector
 set the value of the mean
 get the value of the mean
 
-
+
 1
 2
 3
@@ -51,7 +49,7 @@ makeVector <- function(x = numeric()) {
 The following function calculates the mean of the special "vector" created with the above function. However, it first checks to see if the mean has already been calculated. If so, it gets the mean from the cache and skips the computation. Otherwise, it calculates the mean of the data and sets the value of the mean in the cache via the setmean function.
 
 
-
+
 1
 2
 3
@@ -100,7 +98,7 @@ You will see a list of commits that you have made to this repository. The most r
 A valid submission will look something like (this is just an example!)
 
 
-
+
 1
 https://github.com/rdpeng/ProgrammingAssignment2
 Gradingmenos 
